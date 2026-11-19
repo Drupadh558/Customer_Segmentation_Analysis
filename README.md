@@ -1,18 +1,49 @@
-# Real-World Customer Market Segmentation 
+# Customer Segmentation Analysis
 
 ## Project Overview
-This project uses unsupervised machine learning to analyze real-world supermarket data and group customers based on their purchasing habits. It identifies distinct consumer segments to help businesses target marketing strategies effectively.
 
-## Tech Stack
-* **Python** 
-* **Pandas** (Data manipulation)
-* **Scikit-Learn** (K-Means Clustering)
-* **Matplotlib** (Data visualization)
+This project analyses mall customer data to understand customer behaviour based on annual income and spending score.
 
-## Key Business Insights
-The algorithm successfully segmented the customer base into 5 distinct categories, allowing for highly targeted marketing campaigns:
-1. **Target Customers:** High Income, High Spend
-2. **Standard Customers:** Average Income, Average Spend
-3. **Careful Customers:** High Income, Low Spend
-4. **Careless Customers:** Low Income, High Spend
-5. **Sensible Customers:** Low Income, Low Spend
+
+
+It uses a rule-based segmentation approach in Python to divide customers into five groups. These groups help understand different customer characteristics and support targeted marketing decisions.
+
+## Dataset
+
+The dataset contains the following attributes:
+
+- Customer ID
+- Gender
+- Age
+- Annual Income
+- Spending Score
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+
+## Methodology
+
+1. Loaded the customer dataset using Pandas.
+2. Analysed annual income and spending scores.
+3. Applied conditional statements to assign customers to five groups.
+4. Created scatter plots to visualize customer segments.
+5. Saved the final visualization.
+
+## Customer Groups
+
+1. Target Customers – High Income, High Spending
+2. Careful Customers – High Income, Low Spending
+3. Careless Customers – Low Income, High Spending
+4. Sensible Customers – Low Income, Low Spending
+5. Standard Customers – Remaining customers
+
+## Business Objective
+
+To understand customer purchasing behaviour and help businesses develop more targeted marketing strategies.
+
+## Output
+
+A scatter plot visualizing customer groups based on annual income and spending score.
